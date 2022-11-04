@@ -1,4 +1,8 @@
 name: 'Serverless Action with webpack'
 description: 'Serverless Action with webpack'
-icon: 'aperture'
-color: 'green'
+branding:
+  icon: 'aperture'
+  color: 'green'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
